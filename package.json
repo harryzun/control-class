@@ -1,0 +1,19 @@
+{
+  "name": "control-class",
+  "version": "1.0.0",
+  "description": "Java-like access control ponyfill for classes in JavaScript ES6",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/harryzun/control-class.git"
+  },
+  "author": "Harry Hanssen",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/harryzun/control-class/issues"
+  },
+  "homepage": "https://github.com/harryzun/control-class#readme"
+}
