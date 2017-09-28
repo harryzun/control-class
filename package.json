@@ -1,7 +1,7 @@
 {
   "name": "control-class",
   "version": "1.0.1",
-  "description": "Java-like access control ponyfill for classes in JavaScript ES6",
+  "description": "Java-like access control ponyfill for ES6 (JavaScript) classes",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
