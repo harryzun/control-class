@@ -178,7 +178,7 @@ class Developer extends BaseClass {
     return $_(this).favoriteLanguage
   }
 
-  set favoriteLanguage() {
+  set favoriteLanguage(favoriteLanguage) {
     $_(this).favoriteLanguage = favoriteLanguage
   }
 }
