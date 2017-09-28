@@ -3,7 +3,7 @@
 ![NPM Version](https://img.shields.io/npm/v/control-class.svg)
 ![License](https://img.shields.io/npm/l/control-class.svg)
 
-Control Class is a Java-like access control ponyfill for JavaScript ES6 classes. This essentially allows you to use keywords like public, private, static, and final without polluting the global scope.
+Control Class is a Java-like access control ponyfill for ES6 (JavaScript) classes. This essentially allows you to use keywords like public, private, static, and final without polluting the global scope.
 
 This is made possible by various features of ES6/ES2015 such as the spread/rest operator, WeakMaps, and class syntax. It therefore requires Node.js 6.5.0 or later to function properly. Transpilation to ES5 may also be possible with a WeakMap polyfill.
 
