@@ -29,7 +29,7 @@ class MyClass extends BaseClass {
   }
 }
 ```
-You can access all declared variables within the class by wrapping 'this' with the '$_' function. '$_(this)' is only required for private variables; public variables can be accessed with both '$_(this)' and 'this'.
+You can access all declared variables within the class by wrapping 'this' with the '$\_' function. '$\_(this)' is only required for private variables; public variables can be accessed with both '$_(this)' and 'this'.
 ```node
 $_(this).var = 'value'
 ```
