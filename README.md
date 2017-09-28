@@ -1,4 +1,5 @@
 # Control Class
+![NPM Downloads](https://img.shields.io/npm/dt/control-class.svg)
 ![NPM Version](https://img.shields.io/npm/v/control-class.svg)
 ![License](https://img.shields.io/npm/l/control-class.svg)
 
@@ -28,9 +29,9 @@ class MyClass extends BaseClass {
   }
 }
 ```
-You can access all declared variables within the class by wrapping 'this' with the '$_' function. '$(this)' is only required for private variables; public variables can be accessed with both '$(this)' and 'this'.
+You can access all declared variables within the class by wrapping 'this' with the '$_' function. '$_(this)' is only required for private variables; public variables can be accessed with both '$_(this)' and 'this'.
 ```node
-$(this).var = 'value'
+$_(this).var = 'value'
 ```
 If you want to make the class extendable, export the class after passing it through the extendable() function. You are expected to use one class per Node module (JS file), similar to Java classes.
 ```node
