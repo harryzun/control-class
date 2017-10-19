@@ -21,7 +21,7 @@ Create a new instance of Control Class. The Control Class constructor takes two 
 ```node
 let { $_, BaseClass, extendable } = new ControlClass(declarations, options)
 ```
-When declaring your class extend BaseClass regardless of whether or not you are actually extending any super class.
+When declaring your class, extend BaseClass regardless of whether or not you are actually extending any super class.
 ```node
 class MyClass extends BaseClass {
   constructor(arg) {
