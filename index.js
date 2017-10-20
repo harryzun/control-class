@@ -103,9 +103,19 @@ module.exports = function(vars, options = {}) {
     // Iterate each of the variables to be created
     for (let n of Object.keys(vars)) {
       let v = vars[n]
-      if (v.public == null) v.public = true	// defaults to public
-      if (v.static == null) v.static = false	// defaults to instanced (non-static)
-      if (v.final == null) v.final = false	// defaults to mutable (non-final)
+
+      if (typeof v == 'object' && ('value' in v || 'public' in v || 'static' in v || 'final' in v)) { // standard syntax
+        if (v.public == null) v.public = true	// defaults to public
+        if (v.static == null) v.static = false	// defaults to instanced (non-static)
+        if (v.final == null) v.final = false	// defaults to mutable (non-final)
+      } else { // shorthand syntax
+        v = {
+          value: v,
+          public: true,
+          static: false,
+          final: false
+        }
+      }
 
       let newVar = v.value
       if (!v.static) instanceTemplate[n] = newVar // add static variable to static var object
