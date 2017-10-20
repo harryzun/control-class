@@ -1,4 +1,5 @@
 # Control Class
+[![Build Status](https://travis-ci.org/harryzun/control-class.svg?branch=master)](https://travis-ci.org/harryzun/control-class)
 ![NPM Downloads](https://img.shields.io/npm/dt/control-class.svg)
 ![NPM Version](https://img.shields.io/npm/v/control-class.svg)
 ![License](https://img.shields.io/npm/l/control-class.svg)
