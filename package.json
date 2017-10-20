@@ -1,6 +1,6 @@
 {
   "name": "control-class",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Java-like access control ponyfill for ES6 (JavaScript) classes",
   "main": "index.js",
   "scripts": {
