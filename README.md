@@ -8,7 +8,7 @@ Control Class is a Java-like access control ponyfill for ES6 (JavaScript) classe
 
 This is made possible by various features of ES6/ES2015 such as the spread/rest operator, WeakMaps, and class syntax. It therefore requires Node.js 6.5.0 or later to function properly. Transpilation to ES5 may also be possible with a WeakMap polyfill.
 
-Please note that this is an experimental proof of concept. This should not be used in any production environment. Also, support for protected variables (variables hidden from subclasses) has not been added yet.
+Please note that this is an experimental proof of concept. This should not be used in any production environment. Also, private variables are currently visible to subclasses, this will be fixed once support for both private and protected variables are added in a future update.
 ## Installation
 ```bash
 $ npm install control-class
